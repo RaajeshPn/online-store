@@ -1,0 +1,29 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@font-face{
+    font-family: 'Roboto Mono';
+    src: url(/assets/fonts/Robotomono-Regular.ttf)format("trutype") ;
+}
+h1{
+   font-family:'Roboto Mono' ; 
+} 
+body {
+    padding-top: 56px;
+}
+
+body, html{
+ height: 100%;
+}
+.footer{
+    position: absolute;
+    bottom: 10px;
+    height: 60px;
+
+}
+.warraper{
+    min-height: 100%;
+    position: relative;
+}
+.content{
+    padding-bottom: 100px;
+}

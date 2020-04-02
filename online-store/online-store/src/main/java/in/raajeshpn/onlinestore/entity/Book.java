@@ -12,7 +12,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.ManyToAny;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -35,7 +34,7 @@ public class Book {
 	@Column(name="image_url")
 	private String imageUrl;
 	private boolean active;
-	@Column(name="unit_in_stock")
+	@Column(name="units_in_stock")
 	private int unitInStock;
 	@Column(name="date_created")
 	private Date createdOn;
